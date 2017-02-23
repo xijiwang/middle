@@ -27,9 +27,6 @@ def my_sort(unsorted_list):
 		num_compared = target + 1
 	return unsorted_list
 
-test_list = my_sort(random_list(100,0,100))
-print test_list
-
 
 
 
