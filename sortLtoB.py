@@ -1,5 +1,6 @@
 import my_library
-my_list = my_library.random_list(100,0,100)
+import random
+my_list = my_library.random_list(random.randint(10,50),-100,100)
 l = len(my_list)
 checking = 0
 checker = 1
